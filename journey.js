@@ -19,16 +19,17 @@ backpack.push('gretball', 'antidote', 'revive')
 // let satchel = backpack.splice(3, 2)
 // console.log(satchel)
 
-// if(backpack.length >= 3){
-//     for(let i = 0; i < backpack.length; i++){
-//         console.log(backpack[i])
-// } else {
-//     for(let i = 0; i < backpack.length; i++){
-//         console.log(backpack[i])
-//     }
-// }
+if(backpack.length >= 3){
+    for(let i = 0; i < backpack.length; i++){
+        console.log(backpack[i])
+    }
+} else {
+    for(let i = 0; i < backpack.length; i++){
+        console.log(backpack[i])
+    }
+}
 
-// }
+
 
 let guessMe = 54
 
